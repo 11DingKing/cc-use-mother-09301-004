@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "product": "专业结构调整治理",
+  "source_context": "http://edu.people.com.cn/n1/2026/0924/c1006-40804945.html",
+  "actors": [
+    "教务处",
+    "学院负责人",
+    "行业顾问"
+  ],
+  "states": [
+    "论证",
+    "公示",
+    "审批",
+    "生效",
+    "安置"
+  ],
+  "invariants": [
+    "方案冲突",
+    "学生安置",
+    "影响快照",
+    "跨学年"
+  ],
+  "sample_cases": [
+    {
+      "case_id": "09301-004-A",
+      "actor": "教务处",
+      "state": "论证"
+    },
+    {
+      "case_id": "09301-004-B",
+      "actor": "行业顾问",
+      "state": "公示"
+    }
+  ],
+  "tags": [
+    "major-governance",
+    "program-transition"
+  ]
+}
